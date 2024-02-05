@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>精美的文章布局</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+        background-color: #f7f7f7;
+        line-height: 1.8;
+        padding: 0;
+        margin: 0;
+      }
+
+      .article {
+        max-width: 760px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 25px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .article h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+        font-weight: 400;
+        text-align: center;
+      }
+
+      .article img {
+        max-width: 100%;
+        margin: 20px 0;
+      }
+
+      .article p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #666;
+        text-indent: 2em;
+        line-height: 1.8;
+      }
+
+      .article blockquote {
+        border-left: 3px solid #1aad19;
+        padding-left: 15px;
+        margin: 10px 0;
+        font-style: italic;
+        color: #999;
+      }
+
+      .article a {
+        color: #1aad19;
+        text-decoration: none;
+      }
+
+      .article a:hover {
+        text-decoration: underline;
+      }
+
+      .article footer {
+        font-size: 14px;
+        text-align: right;
+        color: #999;
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    123123
+    <div class="article">
+      <h1>文章标题</h1>
+
+      <img src="hero-image.jpg" alt="主题图片" />
+
+      <p>这是文章的开头段落，通常是文章的摘要或者引言，简要介绍文章的核心内容和阐述的主题。</p>
+
+      <h2>段落标题</h2>
+      <p>段落内容展示。微信公众号文章常常使用段落标题来分隔文章的不同部分，使得文章结构更加清晰，易于读者阅读。</p>
+
+      <blockquote>这是一段引用，可能是名言警句或者重要的参考文献，用于强调文章中的某些观点。</blockquote>
+
+      <p>
+        更多的文章内容继续展开，详细论述作者想要传达的信息。在这里可以插入多个段落，每个段落都紧扣主题，逻辑清晰，层次分明。
+      </p>
+
+      <footer>
+        <p>© 2024 作者或出版方名称</p>
+      </footer>
+    </div>
   </body>
 </html>
